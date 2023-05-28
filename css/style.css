@@ -61,9 +61,11 @@ body {
    top: 0;
    display: inline-block;
 }
+.btn-outline-secondary {
+   border-radius: 0;
+}
 @media (max-width: 500px){
    .sign__label {
       width: 90%;
-      
    }
 }
