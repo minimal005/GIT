@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair:regular,600,&display=swap');
 .text__grey {
-   color: rgba(128, 128, 128, 0.636);
+   color: rgba(128, 128, 128, 0.497);
 }
 body {
    color: rgb(128, 128, 128);
@@ -9,7 +9,7 @@ body {
    font-size: 16px;
    line-height: 1.2;
 }
-.getaway, .cards {
+._container {
    max-width: 90%;
    margin: 0px auto;
 }
@@ -36,4 +36,34 @@ body {
 .card-body {
    padding-left: 0;
    padding-right: 0;
+}
+.card__text {
+   color: rgb(128, 128, 128) !important;
+}
+/* --------------------------------SIGN-UP */
+.sign__input {
+   border-bottom: 1px solid #000;
+   
+}
+
+.sign__label {
+   position: relative;
+   width: 400px;
+   margin: 0px auto;
+}
+.sign__label::after {
+   content: '';
+   background-image: url('../img/send.png');
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   right: 5px;
+   top: 0;
+   display: inline-block;
+}
+@media (max-width: 500px){
+   .sign__label {
+      width: 90%;
+      
+   }
 }
