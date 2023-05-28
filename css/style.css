@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair:regular,600,&display=swap');
+.text__grey {
+   color: rgba(128, 128, 128, 0.636);
+}
+body {
+   color: rgb(128, 128, 128);
+   font-family: 'Playfair', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.2;
+}
 /* ---------------------------HEADER */
+.header__git {
+   padding: 20px 0;
+}
 .header .navbar-toggler {
-   border: none !important;
+   border: transparent !important;
+}
+.header__img {
+   max-width: 100%;
+   
+}
+.header__img img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
 }
