@@ -69,3 +69,31 @@ body {
       width: 90%;
    }
 }
+
+.nav-link:hover{
+   transform: scale(1.2);
+   transition: all 0.3s ease 0s;
+}
+.getaway__link:hover {
+   color: rgba(19, 18, 18, 0.497) !important;
+   font-weight: 600;
+   transition: all 0.3s ease 0s;
+}
+.sign__label:hover::after {
+   right: -5px;
+   top: -10px;
+   transition: all 0.3s ease 0s;
+}
+.footer {
+   font-size: 24px;
+}
+.footer__link {
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+}
+@media (max-width: 768px){
+   .footer {
+      font-size: 20px;
+   }
+}

@@ -8,7 +8,7 @@
 </head>
 
 <body>
-   <header class="header__git mb-5">
+   <header class="header__git mb-3">
       <div class="container">
          <nav class="navbar navbar-expand-md bg-body-tertiary text-uppercase">
             <div class="container-fluid">
@@ -26,10 +26,10 @@
                   <div class="offcanvas-body">
                      <ul class="navbar-nav justify-content-end flex-grow-1">
                         <li class="nav-item">
-                           <a class="nav-link active ps-md-5" aria-current="page" href="#">lifestyle</a>
+                           <a class="nav-link active ps-md-5" aria-current="page" href="#lifestyle">lifestyle</a>
                         </li>
                         <li class="nav-item ps-md-5">
-                           <a class="nav-link" href="#">photodiary</a>
+                           <a class="nav-link" href="#photodiary">photodiary</a>
                         </li>
                         <li class="nav-item ps-md-5">
                            <a class="nav-link" aria-current="page" href="#">music</a>
@@ -50,7 +50,7 @@
    </header>
    <div class="container">
 
-      <section class="getaway _container">
+      <section class="getaway _container pt-3" id="photodiary">
          <div class="text__grey text-uppercase mb-3">photodiary</div>
          <h3 class="mb-3 fw-bolder">The perfect weekend getaway</h3>
          <div class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cupiditate omnis debitis
@@ -63,13 +63,13 @@
             Laudantium voluptatibus debitis vel corrupti ut, amet quia ipsa aliquid in nesciunt incidunt architecto
             eaque. Iure, illo. Incidunt ut nam cumque expedita quos quis a quasi, molestiae dolores mollitia.
             Necessitatibus?</div>
-         <p><a class="link-offset-2 mb-5 text-uppercase text__grey link-underline link-underline-opacity-0"
+         <p><a class="link-offset-2 mb-5 text-uppercase text__grey link-underline link-underline-opacity-0 getaway__link"
                href="#">leave a comment</a>
          </p>
 
       </section>
 
-      <section class="cards _container pb-5 pt-5">
+      <section class="cards _container pb-5 pt-5" id="lifestyle">
 
          <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -169,6 +169,29 @@
          <p class="text-center"><a href="#" class="btn btn-outline-secondary">Load more</a></p>
       </section>
    </div>
+
+   <footer class="footer bg-body-secondary pt-4 pb-4 ">
+      <div class="container d-flex justify-content-between">
+         <div><a href="#!" class="link-underline link-underline-opacity-0 fw-bolder card__text me-4">Terms and
+               conditions</a>
+            <a href="#!" class="link-underline link-underline-opacity-0 fw-bolder card__text pe-2">Privacy</a>
+         </div>
+         <div>
+            <a href="#!" class="link-underline link-underline-opacity-0 fw-bolder card__text me-3">Follow</a>
+            <div class="d-inline-block">
+               <a href="#!" class="footer__link me-2">
+                  <img src="./img/facebook.png" alt="facebook" class="img-fluid">
+               </a>
+               <a href="#!" class="footer__link me-2">
+                  <img src="./img/twitter.png" alt="twitter" class="img-fluid">
+               </a>
+               <a href="#!" class="footer__link">
+                  <img src="./img/instagram.png" alt="instagram" class="img-fluid">
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
 
 
 
