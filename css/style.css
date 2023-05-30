@@ -174,3 +174,7 @@ background-color: #b0d2d1;
 .comment__input::placeholder{
    color: #8080807f;
 }
+.header__li:hover a{
+   transform: translateX(20px);
+   
+}
