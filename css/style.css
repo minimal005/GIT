@@ -146,6 +146,31 @@ ul {
    justify-content: center;
 }
 
-.cards {
-
+.comments__avatar{
+   min-width: 60px;
+   min-height: 60px;
+   border-radius: 50%;
+   
+}
+.comments__avatar-img {
+   background: url('../img/av_64.png') 0 0 no-repeat;
+}
+.comments__avatar-bg {
+   
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.comment__beg{
+   background-color: #d2c1b088;
+}
+.comment__mentol{
+background-color: #b0d2d1;
+}
+.comment__input {
+   border: 1px solid #8080807f;
+}
+.comment__input::placeholder{
+   color: #8080807f;
 }
